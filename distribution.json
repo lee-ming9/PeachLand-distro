@@ -12,7 +12,7 @@
       "name": "피치랜드",
       "description": "PeachLand Running Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/img.jpg",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "peachland.mcv.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -146,6 +146,19 @@
           }
         },
         {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009252,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/optionalon/continuity-3.0.0-beta.5+1.20.1.jar",
+            "MD5": "1772f06a48c83414f4c6dfc2db4ac530"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -156,6 +169,19 @@
           }
         },
         {
+          "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105359,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/optionalon/indium-1.0.34+mc1.20.1.jar",
+            "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.7.5+mc1.20.1@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -163,6 +189,32 @@
             "size": 2730664,
             "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/required/iris-1.7.5+mc1.20.1.jar",
             "MD5": "902528a82a843300ecf9027af9f8fb8c"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/optionalon/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.6.8+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 438098,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/optionalon/koreanpatch-fabric-1.6.8+mc1.20.1.jar",
+            "MD5": "182d0fa84db63423bc8a28d191faf3aa"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -183,6 +235,38 @@
             "size": 8079110,
             "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.23.jar",
             "MD5": "ba65224a933c89746e53bea2b7e48b08"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4211,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441687,
+            "url": "https://raw.githubusercontent.com/lee-ming9/PeachLand-distro/main/servers/PeachLand-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
           }
         }
       ]
